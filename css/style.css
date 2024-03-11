@@ -485,14 +485,19 @@ header.header.sticky {
   left: 4px;
   width: 320px;
   display: block;
-  background: url(../images/piccc.JPG) no-repeat top left/cover;
+  background: url(../images/picSuit.JPG) no-repeat top left/cover;
 }
+/* .about-section .about-img1:hover {
+  filter: grayscale(0%);
+} */
 .about-section .about-img2 {
   position: relative;
   z-index: 2;
   right: 5px;
   width: 320px;
   display: block;
+  /* filter: grayscale(700%); */
+  opacity: 0.1;
   background: url(../images/pic7.jpg) no-repeat left top / cover;
 }
 .about-section .about-img1:before {
