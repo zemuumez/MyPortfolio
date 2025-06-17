@@ -903,35 +903,6 @@ header.header.sticky {
   text-align: justify;
 }
 
-/* Make portfolio content and image columns stretch to the same height */
-.portfolio-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-}
-
-.portfolio-content-wrapper,
-.portfolio-img {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 0;
-}
-
-.portfolio-content,
-.img-area {
-  flex: 1 1 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.img-area img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
 .portfolio-section .portfolio-content-wrapper .slick-arrow {
   background: transparent;
   border: 1px solid #fff;
