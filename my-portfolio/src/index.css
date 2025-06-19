@@ -1,44 +1,47 @@
+@import "./original-base-styles.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-    font-family: "Futura Bk BT";
-    src: url(./assets/fonts/futura-bt-book.eot);
-    src: url(./assets/fonts/futura-bt-book.eot#iefix) format("embedded-opentype"),
-         url(./assets/fonts/futura-bt-book.woff2) format("woff2"),
-         url(./assets/fonts/futura-bt-book.woff) format("woff"),
-         url(./assets/fonts/futura-bt-book.ttf) format("truetype"),
-         url(./assets/fonts/futura-bt-book.svg#FuturaBT-Book) format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Futura Bk BT";
+  src: url(./assets/fonts/futura-bt-book.eot);
+  src: url(./assets/fonts/futura-bt-book.eot#iefix) format("embedded-opentype"),
+    url(./assets/fonts/futura-bt-book.woff2) format("woff2"),
+    url(./assets/fonts/futura-bt-book.woff) format("woff"),
+    url(./assets/fonts/futura-bt-book.ttf) format("truetype"),
+    url(./assets/fonts/futura-bt-book.svg#FuturaBT-Book) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Futura Md BT";
-    src: url(./assets/fonts/futura-bt-medium.eot);
-    src: url(./assets/fonts/futura-bt-medium.eot#iefix) format("embedded-opentype"),
-         url(./assets/fonts/futura-bt-medium.woff2) format("woff2"),
-         url(./assets/fonts/futura-bt-medium.woff) format("woff"),
-         url(./assets/fonts/futura-bt-medium.ttf) format("truetype"),
-         url(./assets/fonts/futura-bt-medium.svg#FuturaBT-Medium) format("svg");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Futura Md BT";
+  src: url(./assets/fonts/futura-bt-medium.eot);
+  src: url(./assets/fonts/futura-bt-medium.eot#iefix)
+      format("embedded-opentype"),
+    url(./assets/fonts/futura-bt-medium.woff2) format("woff2"),
+    url(./assets/fonts/futura-bt-medium.woff) format("woff"),
+    url(./assets/fonts/futura-bt-medium.ttf) format("truetype"),
+    url(./assets/fonts/futura-bt-medium.svg#FuturaBT-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "Futura Md BT Bold";
-    src: url(./assets/fonts/futura-bt-bold.eot);
-    src: url(./assets/fonts/futura-bt-bold.eot#iefix) format("embedded-opentype"),
-         url(./assets/fonts/futura-bt-bold.woff2) format("woff2"),
-         url(./assets/fonts/futura-bt-bold.woff) format("woff"),
-         url(./assets/fonts/futura-bt-bold.ttf) format("truetype"),
-         url(./assets/fonts/futura-bt-bold.svg#FuturaBT-Bold) format("svg");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Futura Md BT Bold";
+  src: url(./assets/fonts/futura-bt-bold.eot);
+  src: url(./assets/fonts/futura-bt-bold.eot#iefix) format("embedded-opentype"),
+    url(./assets/fonts/futura-bt-bold.woff2) format("woff2"),
+    url(./assets/fonts/futura-bt-bold.woff) format("woff"),
+    url(./assets/fonts/futura-bt-bold.ttf) format("truetype"),
+    url(./assets/fonts/futura-bt-bold.svg#FuturaBT-Bold) format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
